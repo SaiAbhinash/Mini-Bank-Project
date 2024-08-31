@@ -1,0 +1,83 @@
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+    position: absolute; /* or relative */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f7f7f7;
+  }
+}
+
+section {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    position: absolute; /* or relative */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f7f7f7;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  select {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  input.right {
+    text-align: right;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .notification {
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .notification.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .notification.danger {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
